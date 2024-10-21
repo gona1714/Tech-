@@ -1,0 +1,276 @@
+#body{
+    background-color: rgb(57, 56, 56);
+    height: 100%;
+    width: 100%;
+}
+#carouselExampleIndicators{
+    height: 600px;
+    margin-top: 60px;
+    background-color: rgb(43, 43, 43);
+}
+.text{
+    font-size: 32px;
+    color: white;
+    position: absolute;
+    left: 250px;
+    top: 200px;
+}
+.text p{
+    font-size: 42px;
+}
+.text h2{
+    color: green;
+}
+ .rate{
+    font-size: 22px;
+    color: gray;
+}
+.text button{
+    color:white;
+    background-color: red;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 5%;
+
+}
+.h1 h1{
+    margin: 100px;
+    color: white;
+}
+.h1{
+    width: 100%;
+    text-align: center;
+}
+.jbl-1 img{
+    margin: 50px 0px;
+}
+.jbl-1 h2{
+    text-align: center;
+    color: gray;
+}
+.price h2{
+    font-size: 28px;
+    color:white;
+}
+.price h2 del{
+    color: gray;
+    font-size: 24px;
+}
+.jbl-1{
+    height: 300px;
+}
+.products{
+    display: flex;
+    overflow: hidden;
+    justify-content: space-evenly;
+}
+
+.products .abc{
+    height: 100%;
+    width: 300px;
+    animation-name: abc;
+    animation-duration:12s ;
+    animation-iteration-count: infinite;
+    position: relative;
+    left: 0%;
+}
+@keyframes abc{
+    0%{
+        left:0;
+    }
+    25%{
+        left: 90%;
+    }
+    50%{
+        left: 75%;
+    }
+   75%{
+        left: 50%;
+    }
+    100%{
+        left: 25%;
+    }
+    }
+.cba{
+    height: 100%;
+    width: 300px;
+    animation-name: cba;
+    animation-duration:12s ;
+    animation-iteration-count: infinite;
+    position: relative;
+
+}
+@keyframes cba{
+    0%{
+        left:0;
+    }
+    25%{
+        left: -25%;
+    }
+    50%{
+        left: 65%;
+    }
+   75%{
+        left: 50%;
+    }
+    100%{
+        left: 25%;
+    }
+    
+}
+.def{
+    height: 100%;
+    width: 300px;
+    animation-name: def;
+    animation-duration:5s ;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+@keyframes def{
+    0%{
+        left:0 ;
+    }
+    25%{
+        left: -25%;
+    }
+    50%{
+        left: -50%;
+    }
+    75%{
+        left: 40%;
+    }
+    100%{
+        left: 25%;
+    }
+    
+}
+.fed{
+    height: 100%;
+    width: 300px;
+    animation-name: fed;
+    animation-duration:5s ;
+    animation-iteration-count: infinite;
+    position: relative;
+
+}
+@keyframes fed{
+   0%{
+    left: 0;
+   }
+    25%{
+        left: -25%;
+    }
+    50%{
+        left: -50%;
+    }
+    75%{
+        left: -75%;
+    }
+    100%{
+        left: 15%;
+    }
+}
+.ghi{
+    height: 100%;
+    width: 300px;
+    animation-name: ghi;
+    animation-duration:5s ;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+@keyframes ghi{
+   0%{
+    left: -5;
+   }
+   25%{
+    left: -25%;
+   }
+   50%{
+    left: -50%;
+   }
+   75%{
+    left: -75%;
+   }
+   100%{
+    left: -90%;
+   }
+}
+.five{
+    display: flex;
+    justify-content: space-evenly;
+}
+.five p{
+    color: gray;
+    font-size: 28px;
+}
+.five p:nth-child(1){
+    border: 1px solid red;
+    padding: 5px 20px;
+    background-color: rgb(228, 16, 16);
+}
+.grid{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+}
+.jbl{
+    height: 400px;
+    width: 300px;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 2px solid gray;
+}
+.star{
+    color: gray;
+    border-bottom: 2px solid gray;
+}
+.star h5 i{
+    color: red;
+}
+.cart1{
+    justify-content: center;
+    padding: 0px 5px;
+}
+.cart1 button{
+    margin: 5px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 70px;
+    background-color: red;
+}
+.bro{
+    text-align: center;
+    align-content: center;
+    color: gray;
+}
+.adv h1{
+    margin: 150px;
+    color: gray;
+    text-align: center;
+}
+.four{
+    display: flex;
+    justify-content: space-evenly;
+}
+.truck{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.truck h2{
+    color: white;
+}
+.truck h4{
+    color: gray;
+}
+.truck i{ 
+    width: 150px;
+    height: 50px;
+    color: red;
+    font-size: 52px;
+    margin-right: 10px;
+}
+
+

@@ -1,0 +1,100 @@
+body{
+    background-color: rgb(27, 27, 27);
+    height: 100%;
+}
+.AB{
+    margin: 50px 0px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.scroll{
+    background-color:rgb(56, 56, 56);
+    width: 64%;
+    height: 600px;
+    margin: 25px;
+    overflow-y: scroll;
+}
+.item{
+    width: 100%;
+    height: 300px;
+    display: grid;
+    grid-template-columns: 25% 70% auto;
+    border-bottom: 1px solid gray;
+}
+.img {
+    width: 100%;
+}
+.button p:nth-child(2){
+    color: red;
+    background-color: rgb(35, 35, 35);
+    padding: 8px 25px;
+}
+.button{
+    border: 2px solid gray;
+    width: 150px;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+ .data  h2  del {
+    font-size: 20px;
+    color: gray;
+}
+.data h2 {
+    color: white;
+}
+.data{
+    align-content: center;
+    font-size: 28px;
+    width: 100%;
+    color:white;
+}
+.icon i{
+    font-size: 32px;
+}
+ .icon {
+    width: 100%;
+    height: 100%;
+    color: red;
+}
+.total{
+    width: 36%;
+    margin: 25px;
+}
+.top{
+    display: flex;
+    color: gray;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+}
+ .cost{
+    color: gray;
+    float: left;
+    text-align: right;
+}
+.cost p{
+    color: green;
+}
+.bill{
+    padding-top: 20px;
+    color: gray;
+}
+.last{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.button1 {
+
+    width: 100%;
+}
+.button1  button{
+    border: none;
+    padding: 10px 70px;
+    color: white;
+    background-color: red;
+    margin-left: 150px;
+}

@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.shop{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+body {
+    width: 100%;
+    height: 100%;
+}
+.tech{
+    color: red;
+}
+.three{
+    display: inline-flex;
+    color: rgb(190, 3, 3);
+}
+.three .bi {
+    width: 100%;
+}
+.three i{
+    padding: 20px;
+    font-size: 28px;
+}
+.bii {
+    display: none;
+    color: red;
+}
+.three .bi:hover span {
+    border: 1px solid gray;
+    background-color: rgb(53, 53, 53);
+    color: red;
+    display: block;
+}
+.bi:hover .bii{
+    display: block;
+    border: 1px solid gray;
+    background-color:rgb(43, 42, 42);
+}
+a{
+    color: red;
+}
+button{
+    background-color: rgb(54, 54, 54);
+}
+ul{
+list-style: none;
+}
+li{
+    font-size: 15px;
+}
+footer{
+    background-color: black;
+}
+.Four{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 150px;
+    color: gray;
+    width: 100%;
+    border-bottom: 2px solid gray;
+    border-top: 2px solid gray;
+}
+.Four > div{
+    width: 300px;
+}
+.Four button{
+    background-color: red;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+
+}
+.Four > div > input {
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid gray;
+    padding: 10px 0px;
+    margin: 5px 0px;
+
+    color: gray;
+}
+.two{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    color: gray;
+}
+.s-media{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+}

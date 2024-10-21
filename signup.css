@@ -1,0 +1,53 @@
+body{
+    background-image: url('../images-20241010T043325Z-001/images/products/bg.png');
+    background-size: cover;
+}
+.Signup b{
+     color: white;
+}
+.Signup input{
+    background-color: rgb(42, 41, 41);
+    padding: 5px; 
+    margin: 5px;
+    width: 90%;
+    border:1px solid gray ;
+}
+.Signup input:nth-child(5){
+    background-color: red;
+    color: white;
+    margin-top: 20px;
+}
+.Signup form fieldset{
+    margin: 20px;
+    border: none;
+    border-top: 2px solid gray;
+}
+.Signup{
+    border: 1px solid gray;
+    background-color: rgb(42, 42, 42);
+    color: gray;
+    width: 350px;
+    height: 450px;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+}
+.ABC{
+    display: flex;
+    justify-content: space-evenly;
+}
+.ABC button:nth-child(1){
+    background-color: blue;
+}
+.ABC button:nth-child(2){
+    background-color: red;
+}
+.ABC button:nth-child(3){
+    background-color: skyblue;
+}
+.ABC button{
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+}
